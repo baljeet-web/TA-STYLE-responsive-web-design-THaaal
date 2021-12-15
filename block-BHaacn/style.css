@@ -1,0 +1,735 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* customisation */
+/* customisation */
+/* customisation */
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    
+    max-width: 85.5rem;
+    
+    padding: 0 3rem;
+
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    /* display: flex; */
+    align-items: center;
+}
+
+.justify-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.justify-evenly{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+body{
+    
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    /* font-weight: 600; */
+}
+
+p{
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.header{
+    color: white;
+    padding-top: 2rem;
+    position: relative;
+    z-index: 1;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+nav a{
+    margin-left: 1.2rem;
+}
+
+.btn{
+    background-color: rgb(242,73,77);
+    padding: 0.8rem 1.4rem;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-40{
+    flex: 0 1 45%;
+}
+
+.flex-end{
+    justify-content: flex-end;
+    display: flex;
+}
+
+.web-developer{
+    color: white;
+    background: linear-gradient( rgba(4, 10, 128, 0.966), rgba(134, 3, 173, 0.7)), url(../block-BHaacn/assets/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    position: absolute;
+    top: 0;
+    padding-top: 8rem;
+}
+
+.web-developer p{
+    margin: 1.7rem 0;
+    
+}
+
+h2{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+h2 b{
+  color: rgb(242,73,77);
+}
+
+.full-width{
+    width: 6rem
+}
+
+.about-the-event{
+    margin-top: 35rem;
+}
+
+.about-the-event p{
+    padding: 2rem 0;
+    color: gray;
+}
+
+.about-the-event h2{
+    font-weight: 5rem;
+}
+
+.flex-30{
+    flex: 0 1 28%;
+}
+
+.why-you-should-join{
+    margin-top: 5rem;
+    background-color: rgb(223,236,254);
+    padding: 4rem 0;
+}
+
+.why-you-should-join h2{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.border{
+    border: 2px dashed rgb(242,73,77);
+   
+}
+
+h3{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1.5rem 0;
+}
+
+.padding{
+    padding: 1.5rem;
+}
+
+.absolute{
+    display: absolute;
+}
+ 
+.absolute strong{
+    color: rgb(242,73,77);
+    background-color: rgb(223,236,254);
+    position: absolute;
+    margin-top: -3rem;
+    padding: 1rem;
+}
+
+.section-3{
+    width: 100%;
+    background-color: #DFEBFE;
+}
+h3{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.number {
+    position: absolute;
+    font-size: 2.3rem;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0;
+    background-color: #DFEBFE;
+    margin-left: 1.4rem;
+    color: #E9404A;
+}
+.flex-30-1{
+    margin-top: -3.5rem;
+}
+.section-3 .flex-30 {
+    margin-top: 2.4rem;
+    padding: 1rem 1rem;
+    border: 3px dashed #E9404A;
+}
+.section-3 .heading-1 {
+    font-size: 2rem;
+    color: #081933;
+    font-weight: 700;
+    padding-top: 4rem;
+    text-align: left;
+}
+.content {
+    font-size: 1.2rem;
+    color: rgb(97, 95, 95);
+    padding-top: 0.4rem;
+    text-align: left;
+}
+
+/* Section-4 */
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.section-4 {
+    width: 100%;
+    text-align: center;
+}
+h4 {
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.circle, .circle-1 {
+    width: 9rem;
+    height: 9rem;
+    background-color: #E9404A;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 2.2rem;
+    /* padding: 1rem; */
+    color: #ffffff;
+    font-weight: 700;
+    
+}
+.circle-1{
+    
+    border: 2px dashed #E9404A;
+    background-color: #ffffff;
+    color: #E9404A;
+    font-weight: 800;
+    
+}
+.flex-15{
+    position: relative;
+    z-index: 1;
+    
+}
+.vl {
+    position: absolute;
+    top: 0;
+    margin: 0 auto;
+}
+.vertical {
+    border-left: 4px dashed #e9044a;
+    height: 35rem;
+    margin-left: 6.4rem;
+    margin-top: -40rem;
+}
+.image-col {
+    width: 22%;
+}
+.image-col img {
+    object-fit: cover;
+    margin-left: 3.5rem;
+    border-radius: 8px;
+}
+.content-col{
+    width: 60%;
+}
+.content-col p{
+    padding-left: 3.5rem;
+}
+.content-col .heading{
+    font-weight: 800;
+    color: #081933
+}
+
+.content-col .content {
+    font-size: 1.4rem;
+    color: rgb(92, 91, 91);
+}
+.section-4 .btn {
+    margin-top: 6rem;
+}
+.section-4 .heading{
+    text-align: left;
+    font-size: 2rem;
+}
+
+/* Section-5 */
+
+.section-5 {
+    width: 100%;
+    background-color: #DFEBFE;
+}
+.flex-25 {
+    padding: 2rem 0;
+}
+.flex-25-1 {
+    flex: 0 1 25%;
+    background-color: #e9044a;
+    padding: 1rem 0;
+    border-radius: 8px;
+}
+.flex-25 img{
+    width: 30%;
+    object-fit: cover;
+    margin-left: 35%;
+}
+.flex-25-1 img{
+    width: 30%;
+    object-fit: cover;
+    margin-left: 35%;
+    margin-top: 1rem;
+}
+.flex-25 .heading {
+    text-align: center;
+    font-weight: 800;
+}
+.flex-25 .content{
+    text-align: center;
+    color: #081933;
+    font-weight: 700;
+}
+.flex-25-1 .heading {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 800;
+}
+.flex-25-1 .content{
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+/* Section-6 */
+
+.section-6{
+    width: 100%;
+}
+.hero-bg  {
+    width: 100%;
+    height: 80vh;
+    background-image: url(../assets/banner.png);
+    border-radius: 20px;
+}
+.hero-bg .circle-1{
+    border: 0;
+    margin: 0 auto;
+}
+.circle-1 i{
+    color: #e9044a;
+    margin: 0 auto;
+}
+
+/* .section-7 */
+
+.section-7 {
+    width: 100%;
+    padding-bottom: 8rem;
+    background-color: #DFEBFE;
+}
+
+.section-7 .heading {
+    font-size: 1.4rem;
+    padding-right: 1rem;
+    font-weight: 800;
+    padding-top: 1rem;
+}
+.section-7 .content {
+    font-size: 1.2rem;
+    color: rgb(83, 82, 82);
+    padding-top: 0.5rem;
+}
+h6{
+    text-align: center;
+    margin: 1rem 0;
+    margin-bottom: 3rem;
+    font-weight: 800;
+}
+.anchor, .active {
+    margin-top: 1rem;
+}
+.anchor a{
+    font-size: 1.4rem;
+    color: #081933;
+    text-decoration: underline;
+    margin-top: 1rem;
+}
+
+.active a{
+    font-size: 1.4rem;
+    color: #e9044a;
+    text-decoration: underline;
+    margin-top: 1rem;
+}
+
+/* Section-8 */
+
+.section-8{
+    width: 100%;
+    background-color: #23347B;
+}
+.section-8 p{
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+.section-8 a{
+    margin-right: 0.5rem;
+    font-size: 1.1rem;
+    color: rgb(151, 148, 148);
+    padding: 0.1rem;
+}
+.flex-30 i{
+    color: rgb(151, 148, 148);
+    font-size: 1.8rem;
+    margin-right: 1.5rem;
+    border-radius: 1rem;
+}
+
+/* Footer */
+
+.footer{
+    padding: 1.5rem 0;
+    text-align: center;
+    color: rgb(151, 148, 148);
+    background-color: #112169;
+}
+
+.width-full{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* Responsive Design and adaptive design */
+
+@media screen and (max-width: 768px) {
+    html{
+        font-size: 10px;
+    }
+    .section-1, .section-2, .section-6, .section-7{
+        padding: 0 2rem;
+    }
+    .btn a {
+        font-size: 3rem;
+    }
+    .padding{
+        padding: 1rem;
+    }
+    .flex{
+        flex-wrap: wrap;
+    } 
+    .flex-40, .flex-80{
+        flex: 0 1 100%;
+    }
+    .flex-30{
+        flex: 0 1 100%;
+        margin-top: 2rem;
+    }
+    .flex-48 {
+        flex: 0 1 100%;
+        margin-top: 2rem;
+    }
+    .flex-15{
+        flex: 0 1 100%;
+    }
+    .vertical {
+        display: none;
+    }
+    .section-4, .section-5{
+        flex: 0 1 100%;
+    }
+    
+    .section-6, .section-8{
+        flex: 0 1 100%;
+        
+    }
+    .hero-bg{
+        flex: 0 1 100%;
+        height: 40vh;
+    }
+    .btn{
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+    .anchor, .active {
+        text-align: center;
+    }
+    .flex-25, .flex-25-1, .flex-30-1{
+        flex: 0 1 100%;
+    }
+    .section-2, .section-1, .section-4{
+        text-align: center;
+    }
+    
+    h1,h2,h3,h4,h5,h6{
+        margin-top: 10rem;
+        font-size: 5rem;
+        text-align: center;
+    }
+    h1{
+        margin-top: 12rem;
+    }
+    p {
+        padding: 1rem 2rem;
+    }
+    .heading{
+        font-size: 3rem;
+        margin-top: 1rem;
+    }
+    .content-col {
+        flex: 0 1 100%;
+        padding: 0;
+        margin-right: 1rem;
+    }
+    .content-col .content{
+        font-size: 2.5rem;
+    }
+    .flex-40 p{
+        font-size: 2.5rem;
+    }
+    .flex-48 p{
+        font-size: 2.5rem;
+    }
+    .image-col {
+        flex: 0 1 100%;
+        margin-right: 1rem;
+    }
+    .section-4 {
+        flex: 0 1 100%;
+        text-align: center;
+        margin-left: -3rem;
+    }
+    .section-7 .content{
+        font-size: 2.5rem;
+    }
+    .section-7 .heading {
+        font-size: 3rem;
+    }
+    .anchor, .active {
+        margin-bottom: 2rem;
+    }
+    .anchor a{
+        font-size: 2.5rem;
+    }
+    .active a{
+        font-size: 2.5rem;
+    }
+    .flex-80 .heading {
+        text-align: center;
+        margin-left: 3rem;
+    }
+    .flex-80 .content {
+        text-align: center;
+        margin-left: 3rem;
+    }
+    .section-8 .flex-30{
+        display: flex;
+        align-items: center;
+    }
+    .section-8 .flex-30 p{
+        font-size: 2.5rem;
+    }
+    .section-8 .flex-30 a{
+        font-size: 2.2rem;
+    }
+    .section-8 .flex-30 i{
+        font-size: 3rem;
+    }
+    .section-8 .flex-30 img {
+        margin-left: 2.4rem;
+    }
+    .footer {
+        flex: 0 1 100%;
+        font-size: 1.8rem;
+    }
+    .number {
+        font-size: 3rem;
+    }
+    .section-3 .content{
+        font-size: 1.5rem;
+    }
+    .order {
+        order: -2;
+    }
+    .order-1{
+        order: -1;
+        margin-bottom: 2rem;
+    }
+    .vl {
+        display: none;
+    }
+    .flex-10{
+        flex: 0 1 100%;
+    }
+    .circle, .circle-1{
+        margin-left: 43%;
+        margin-bottom: 3rem;
+        margin-top: 1rem;
+    }
+    .heading-1{
+        font-size: 4rem;
+        margin-top: 2rem;
+        font-weight: 700;
+    }
+    .content-col .heading{
+        font-size: 2.5rem;
+    }
+    i {
+        margin-left: 2rem;
+    }
+    
+    /* Hamburger */
+
+    .nav-toggle {
+        display: none;
+    }
+
+    #toggle {
+        z-index: 0;
+    }
+    #toggle:checked ~ .nav-toggle {
+        display: inline-block;
+    }
+    .bars {
+        display: inline-block;
+        font-size: 2rem;
+        color: #ffffff;
+        position: fixed;
+        z-index: 99;
+        right: 16px;
+        top: 6px;
+    }
+    .nav-toggle ul {
+        display: block
+    }
+    .nav-toggle li{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .nav-toggle .btn {
+        margin-left: -2rem;
+        padding: 1rem 1rem;
+    }
+    .nav-toggle .btn a{
+        padding-left: 1.5rem;
+    }
+    .nav-toggle a{
+        font-size: 2.5rem;
+        padding: 0;
+        font-weight: 900;
+    }
+    .nav-toggle{
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(33,46,93,0.9);
+        padding-top: 240px;
+        text-align: center;
+        z-index: 9;
+    }
+    .brand{
+        position: fixed;
+        z-index: 99;
+        top: 6px;
+    }
+    .header{
+        background-color: rgba(33,46,93,0.2);
+        position: fixed;
+        padding: 2rem 0;
+    }
+}
+
